@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO - Book a Session</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Same as index.html -->
+    </header>
+
+    <main>
+        <h1>Book Your Session</h1>
+        
+        <form id="booking-form">
+            <select name="service" required>
+                <option value="">Select a Service</option>
+                <option value="wedding">Wedding Photography</option>
+                <option value="product">Product Photography</option>
+                <option value="video">Videography</option>
+                <option value="lifestyle">Lifestyle & Fashion Photography</option>
+            </select>
+            
+            <input type="date" name="date" required>
+            <input type="time" name="time" required>
+            
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone" required>
+            
+            <button type="submit">Book Now</button>
+        </form>
+    </main>
+
+    <footer>
+        <!-- Same as index.html -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
