@@ -1,4 +1,54 @@
 <!DOCTYPE html>
+/* ... (previous styles remain the same) ... */
+
+/* Services Page */
+.book-service {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* Portfolio Page */
+#team-members, #work-showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* Contact Page */
+#contact-form form, #booking-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact-form input, #contact-form textarea,
+#booking-form input, #booking-form select {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Booking Page */
+#booking-form {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
