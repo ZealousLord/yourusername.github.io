@@ -1,134 +1,49 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* ... (previous styles remain the same) ... */
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
-
-header {
-    background-color: #000;
-    color: #fff;
-    padding: 1rem;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav ul li {
-    margin-right: 1rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.book-now {
-    background-color: #fff;
-    color: #000;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-}
-
-main {
-    padding: 2rem;
-}
-
-#home {
-    text-align: center;
-    padding: 4rem 0;
-    background-color: #f4f4f4;
-}
-
-#home h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-#home button {
-    margin: 1rem;
-    padding: 0.5rem 1rem;
+/* Services Page */
+.book-service {
     background-color: #000;
     color: #fff;
     border: none;
+    padding: 0.5rem 1rem;
     cursor: pointer;
+    margin-top: 1rem;
 }
 
-.service-grid {
+/* Portfolio Page */
+#team-members, #work-showcase {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
 }
 
-.service-card {
-    text-align: center;
-}
-
-.service-card img {
-    width: 100%;
-    height: auto;
-}
-
-#why-choose-us {
-    background-color: #f4f4f4;
-    padding: 4rem 2rem;
-    text-align: center;
-}
-
-.reasons {
+/* Contact Page */
+#contact-form form, #booking-form {
     display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
-.reason {
-    flex-basis: 30%;
+#contact-form input, #contact-form textarea,
+#booking-form input, #booking-form select {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
 }
 
-#cta {
-    text-align: center;
-    padding: 4rem 2rem;
-    background-color: #000;
-    color: #fff;
-}
-
-#cta button {
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #fff;
-    color: #000;
-    border: none;
-    cursor: pointer;
-}
-
-footer {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-}
-
-footer nav {
-    margin: 1rem 0;
-}
-
-footer nav a {
-    color: #fff;
-    margin: 0 1rem;
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 1rem 2rem;
     text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Booking Page */
+#booking-form {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 5px;
 }
